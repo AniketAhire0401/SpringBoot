@@ -10,6 +10,7 @@ import com.example.EmProject.Interfaces.IEmpService;
 import com.example.EmProject.Model.Employee;
 import com.example.EmProject.Repository.EmpRepository;
 
+// these is service
 @Service
 public class EmpService implements IEmpService{
 List<Employee> employees = new ArrayList<>();
